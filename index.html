@@ -12,6 +12,132 @@
     </h1>    
     <p>Hari ini belajar Github, Html, dan Deploy ke Vercel</p>
     <p>Belajar Web Menyenangkan</p>
+
+    <!-- ini komentar, tidak ditampilkan pada browser -->
+     <!-- heading 1 sd 6 -->
+      <h1>Judul</h1>
+      <h2>Judul</h2>
+      <h3>Judul</h3>
+      <h4>Judul</h4>
+      <h5>Judul</h5>
+      <h6>Judul</h6>
+
+      <!-- gambar -->
+       <img src = "Images/download.jpg" alt=""
+       width="20%">
+
+       <!-- Links -->
+        <a href="https:/mdp.co.id">MDP IT Store</a> <br>
+        <a href="https:/mdp.ac.id" target="_blank">UNIV MDP</a> <br>
+
+    <!-- Link Gambar -->
+
+        <a href="https://www.youtube.com/" target="_blank">
+            <img src="Images/download.png" alt="Unduh Aplikasi"></a>
+
+    <!-- Table-->
+            <table border="1">
+                <!-- Baris -->
+                 <tr>
+                    <!-- Kolom -->
+                     <td>Nama</td>
+                     <td>NPM</td>
+                     <td>Email</td>
+                 </tr>
+                 <tr>
+                    <td>Angky</td>
+                    <td>001</td>
+                    <td>Angky@mhs.mdp.ac.id</td>
+                    <td><img src="Images/download.png" alt="HAI"></td>
+                 </tr>
+                 <tr>
+                    <td>Liu</td>
+                    <td>002</td>
+                    <td>liu@mhs.mdp.ac.id</td>
+                    <td><img src="Images/download.jpg" alt="Gacor Kang"></td>
+                 </tr>
+                 
+
+            </table>
+        <h2>Colspan</h2>
+        <table border="1">
+            <!-- 2 kolom pada baris pertama di gabung -->
+             <tr>
+                <td Colspan="2">Jenis Kelamin</td>
+             </tr>
+             <tr>
+                <td>Laki</td>
+                <td>Perempuan</td>
+             </tr>
+        </table>
+        <h2>Rowspan</h2>
+        <table border="1">
+            <!-- 2 baris pada kolom pertama di gabung -->
+             <tr>
+                <td rowspan="2"> Idol</td>
+                <td>Jiso</td>
+             </tr>
+             <tr>
+                <td>Michie</td>
+             </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <td rowspan="2">No</td>
+            
+                <td rowspan="2">Nama</td>
+
+                <td colspan="3">Nilai</td>
+            </tr>
+            <tr>
+                <td>UTS</td>
+                <td>UAS</td>
+                <td>Tugas</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ahmad</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Riyadi</td>
+                <td>90</td>
+                <td>90</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td colspan="2">Rata-Rata</td>
+                <td>95</td>
+                <td>95</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td colspan = "4">Michie</td>
+                <td><img src="Images/images.jpg" alt="Gacor Kang"></td>
+
+            </tr>
+            
+        </table>
+
+        <h2>Formulir</h2>
+        <form action="proses.php" method="post">
+            Nama <br>
+            <input type="text" name="nama" id="nama"required> <br>
+            Email <br>
+            <input type="text" name="Email" id="Email" required> <br>
+            Jenis Kelamin <br>
+            <input type="radio" name="jk" id="" value="L" checked> Laki <br>
+            <input type="radio" name="jk" id="" value="P" > Perempuan <br>
+            tempat lahir <br>
+            <select name="Tempat_lahir" id="Tempat_lahir">
+                <option value="PLB"> Palembang</option>
+                <option value="JKT"> Jakarta </option>
+            </select>
+        </form>
+        
 </body>
 
 </html>
