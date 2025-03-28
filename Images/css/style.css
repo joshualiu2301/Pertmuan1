@@ -1,0 +1,109 @@
+/* hp /
+body{
+    background-color: blue;
+}
+/ tablet /
+@media screen and (min-width:600px ) {
+    body{
+        background-color: blue;
+    }
+    .col-md-6{
+        width: 50%;
+        float: left;
+ 
+    }
+    .col-md-4{
+        width: 100%;
+        float: left;
+
+    }
+    .col-md-2{
+        width: 16.6%;
+        float: left;
+
+    }
+    .col-md-2-k{
+        width: 16.6%;
+        float: right;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+
+
+}
+/ desktop */
+@media screen and (min-width:992px) {
+    body{
+        background-color: blue;
+    }
+    .col-lg-3 {
+        width: 25%;
+
+        float: left;
+    }
+    .col-lg-4{
+        width: 33.3%;
+        float: left;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+.kiri{
+    text-align: left;
+}
+.kanan{
+    text-align: right;
+}
+.tengah{
+    text-align: center;
+}
+
+.p-2{
+    padding: 10px;
+}
+text{
+    color: white;
+}
+div{
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+.m-1{
+    margin: 1cm;
+}
+.row{
+    content:"" ;
+    clear: both;
+    display: table;
+
+}
+img{
+    width: 100%;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+.rounded{
+    border-radius: 50px;
+}
+a{
+    color: white;
+}
+h4{
+    color: white;
+}
+form{
+    border-radius: 70px;
+}
+footer{
+    background-color: lightblue;
+    color: black;
+}
